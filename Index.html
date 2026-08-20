@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Igreja Viva | Notícias e Liturgia</title>
+
+    <meta
+        name="description"
+        content="Igreja Viva — notícias do Vaticano, liturgia diária e conteúdo católico."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header>
+
+    <a href="#inicio" class="logo">
+        <span>✠</span>
+        Igreja Viva
+    </a>
+
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#liturgia">Liturgia</a>
+        <a href="#recursos">Recursos</a>
+    </nav>
+
+    <div class="header-buttons">
+
+        <button id="themeButton" class="icon-button">
+            ☾
+        </button>
+
+        <button id="loginButton" class="login-button">
+            Entrar
+        </button>
+
+    </div>
+
+</header>
+
+
+<main id="inicio">
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            <span class="dot"></span>
+            ATUALIZAÇÃO DIÁRIA
+        </div>
+
+        <h1>
+            A Igreja em movimento.
+            <br>
+            <span>Todos os dias.</span>
+        </h1>
+
+        <p>
+            Notícias do Vaticano, vida da Igreja e a Liturgia do Dia
+            em um só lugar.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#noticias" class="primary">
+                Ver novidades →
+            </a>
+
+            <a href="#liturgia" class="secondary">
+                Liturgia de hoje
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <div class="cross">
+            ✠
+        </div>
+
+        <div class="hero-card-header">
+            <span>PALAVRA DO DIA</span>
+            <span id="date">--/--/----</span>
+        </div>
+
+        <h2 id="heroTitle">
+            Carregando...
+        </h2>
+
+        <div class="line"></div>
+
+        <p>
+            "A Palavra de Deus nos reúne,
+            ilumina e envia."
+        </p>
+
+        <a href="#liturgia">
+            Abrir liturgia →
+        </a>
+
+    </div>
+
+</section>
+
+
+<div class="ticker">
+
+    <div class="ticker-title">
+        HOJE
+    </div>
+
+    <div class="ticker-content" id="ticker">
+        Igreja Viva • Notícias do Vaticano • Liturgia diária
+    </div>
+
+</div>
+
+
+<section class="section" id="noticias">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                SANTA SÉ • IGREJA • PAPA
+            </div>
+
+            <h2>
+                Novidades de hoje
+            </h2>
+
+        </div>
+
+        <button id="refreshNews" class="refresh">
+            ↻ Atualizar
+        </button>
+
+    </div>
+
+
+    <div class="news-grid" id="newsContainer">
+
+        <article class="news featured">
+
+            <div class="category">
+                VATICANO
+            </div>
+
+            <h3>
+                Acompanhe as principais novidades
+                da Igreja Católica.
+            </h3>
+
+            <p>
+                Consulte diretamente as fontes oficiais
+                para acompanhar as notícias mais recentes.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/"
+                target="_blank"
+                rel="noopener"
+            >
+                Ler no Vatican News →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                PAPA
+            </div>
+
+            <h3>
+                Notícias e atividades do Santo Padre
+            </h3>
+
+            <p>
+                Discursos, viagens, encontros e mensagens.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/papa.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                IGREJA
+            </div>
+
+            <h3>
+                A vida da Igreja pelo mundo
+            </h3>
+
+            <p>
+                Conheça acontecimentos e iniciativas
+                da Igreja Católica.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/igreja.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                SANTA SÉ
+            </div>
+
+            <h3>
+                Documentos e informações oficiais
+            </h3>
+
+            <p>
+                Consulte diretamente o portal da Santa Sé.
+            </p>
+
+            <a
+                href="https://www.vatican.va/"
+                target="_blank"
+                rel="noopener"
+            >
+                Visitar →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="liturgy" id="liturgia">
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div>
+
+                <div class="eyebrow">
+                    ORAÇÃO • ESCRITURA • CAMINHO
+                </div>
+
+                <h2>
+                    Liturgia diária
+                </h2>
+
+            </div>
+
+            <div class="date-pill" id="liturgyDate">
+                Hoje
+            </div>
+
+        </div>
+
+
+        <div class="liturgy-card">
+
+            <div class="liturgy-symbol">
+                ✠
+            </div>
+
+
+            <div>
+
+                <div class="small-title">
+                    CELEBRAÇÃO DE HOJE
+                </div>
+
+                <h3 id="liturgyTitle">
+                    Carregando...
+                </h3>
+
+
+                <div class="readings">
+
+                    <div>
+
+                        <span>
+                            LEITURA
+                        </span>
+
+                        <p id="reading">
+                            —
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            EVANGELHO
+                        </span>
+
+                        <p id="gospel">
+                            —
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    class="primary"
+                    href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Ler na fonte oficial →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="recursos">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                CENTRAL CATÓLICA
+            </div>
+
+            <h2>
+                Mais para sua caminhada
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="resources">
+
+        <a
+            href="https://www.vatican.va/"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>◎</span>
+
+            <div>
+                <strong>Santa Sé</strong>
+
+                <p>
+                    Documentos e informações oficiais.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>☩</span>
+
+            <div>
+                <strong>Palavra do Dia</strong>
+
+                <p>
+                    Leituras e Evangelho.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/santo-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>✦</span>
+
+            <div>
+                <strong>Santo do Dia</strong>
+
+                <p>
+                    Conheça os santos celebrados hoje.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+       <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Igreja Viva | Notícias e Liturgia</title>
+
+    <meta
+        name="description"
+        content="Igreja Viva — notícias do Vaticano, liturgia diária e conteúdo católico."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header>
+
+    <a href="#inicio" class="logo">
+        <span>✠</span>
+        Igreja Viva
+    </a>
+
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#liturgia">Liturgia</a>
+        <a href="#recursos">Recursos</a>
+    </nav>
+
+    <div class="header-buttons">
+
+        <button id="themeButton" class="icon-button">
+            ☾
+        </button>
+
+        <button id="loginButton" class="login-button">
+            Entrar
+        </button>
+
+    </div>
+
+</header>
+
+
+<main id="inicio">
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            <span class="dot"></span>
+            ATUALIZAÇÃO DIÁRIA
+        </div>
+
+        <h1>
+            A Igreja em movimento.
+            <br>
+            <span>Todos os dias.</span>
+        </h1>
+
+        <p>
+            Notícias do Vaticano, vida da Igreja e a Liturgia do Dia
+            em um só lugar.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#noticias" class="primary">
+                Ver novidades →
+            </a>
+
+            <a href="#liturgia" class="secondary">
+                Liturgia de hoje
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <div class="cross">
+            ✠
+        </div>
+
+        <div class="hero-card-header">
+            <span>PALAVRA DO DIA</span>
+            <span id="date">--/--/----</span>
+        </div>
+
+        <h2 id="heroTitle">
+            Carregando...
+        </h2>
+
+        <div class="line"></div>
+
+        <p>
+            "A Palavra de Deus nos reúne,
+            ilumina e envia."
+        </p>
+
+        <a href="#liturgia">
+            Abrir liturgia →
+        </a>
+
+    </div>
+
+</section>
+
+
+<div class="ticker">
+
+    <div class="ticker-title">
+        HOJE
+    </div>
+
+    <div class="ticker-content" id="ticker">
+        Igreja Viva • Notícias do Vaticano • Liturgia diária
+    </div>
+
+</div>
+
+
+<section class="section" id="noticias">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                SANTA SÉ • IGREJA • PAPA
+            </div>
+
+            <h2>
+                Novidades de hoje
+            </h2>
+
+        </div>
+
+        <button id="refreshNews" class="refresh">
+            ↻ Atualizar
+        </button>
+
+    </div>
+
+
+    <div class="news-grid" id="newsContainer">
+
+        <article class="news featured">
+
+            <div class="category">
+                VATICANO
+            </div>
+
+            <h3>
+                Acompanhe as principais novidades
+                da Igreja Católica.
+            </h3>
+
+            <p>
+                Consulte diretamente as fontes oficiais
+                para acompanhar as notícias mais recentes.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/"
+                target="_blank"
+                rel="noopener"
+            >
+                Ler no Vatican News →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                PAPA
+            </div>
+
+            <h3>
+                Notícias e atividades do Santo Padre
+            </h3>
+
+            <p>
+                Discursos, viagens, encontros e mensagens.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/papa.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                IGREJA
+            </div>
+
+            <h3>
+                A vida da Igreja pelo mundo
+            </h3>
+
+            <p>
+                Conheça acontecimentos e iniciativas
+                da Igreja Católica.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/igreja.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                SANTA SÉ
+            </div>
+
+            <h3>
+                Documentos e informações oficiais
+            </h3>
+
+            <p>
+                Consulte diretamente o portal da Santa Sé.
+            </p>
+
+            <a
+                href="https://www.vatican.va/"
+                target="_blank"
+                rel="noopener"
+            >
+                Visitar →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="liturgy" id="liturgia">
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div>
+
+                <div class="eyebrow">
+                    ORAÇÃO • ESCRITURA • CAMINHO
+                </div>
+
+                <h2>
+                    Liturgia diária
+                </h2>
+
+            </div>
+
+            <div class="date-pill" id="liturgyDate">
+                Hoje
+            </div>
+
+        </div>
+
+
+        <div class="liturgy-card">
+
+            <div class="liturgy-symbol">
+                ✠
+            </div>
+
+
+            <div>
+
+                <div class="small-title">
+                    CELEBRAÇÃO DE HOJE
+                </div>
+
+                <h3 id="liturgyTitle">
+                    Carregando...
+                </h3>
+
+
+                <div class="readings">
+
+                    <div>
+
+                        <span>
+                            LEITURA
+                        </span>
+
+                        <p id="reading">
+                            —
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            EVANGELHO
+                        </span>
+
+                        <p id="gospel">
+                            —
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    class="primary"
+                    href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Ler na fonte oficial →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="recursos">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                CENTRAL CATÓLICA
+            </div>
+
+            <h2>
+                Mais para sua caminhada
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="resources">
+
+        <a
+            href="https://www.vatican.va/"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>◎</span>
+
+            <div>
+                <strong>Santa Sé</strong>
+
+                <p>
+                    Documentos e informações oficiais.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>☩</span>
+
+            <div>
+                <strong>Palavra do Dia</strong>
+
+                <p>
+                    Leituras e Evangelho.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/santo-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>✦</span>
+
+            <div>
+                <strong>Santo do Dia</strong>
+
+                <p>
+                    Conheça os santos celebrados hoje.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+       <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Igreja Viva | Notícias e Liturgia</title>
+
+    <meta
+        name="description"
+        content="Igreja Viva — notícias do Vaticano, liturgia diária e conteúdo católico."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+<div class="progress" id="progress"></div>
+
+<header>
+
+    <a href="#inicio" class="logo">
+        <span>✠</span>
+        Igreja Viva
+    </a>
+
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#liturgia">Liturgia</a>
+        <a href="#recursos">Recursos</a>
+    </nav>
+
+    <div class="header-buttons">
+
+        <button id="themeButton" class="icon-button">
+            ☾
+        </button>
+
+        <button id="loginButton" class="login-button">
+            Entrar
+        </button>
+
+    </div>
+
+</header>
+
+
+<main id="inicio">
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            <span class="dot"></span>
+            ATUALIZAÇÃO DIÁRIA
+        </div>
+
+        <h1>
+            A Igreja em movimento.
+            <br>
+            <span>Todos os dias.</span>
+        </h1>
+
+        <p>
+            Notícias do Vaticano, vida da Igreja e a Liturgia do Dia
+            em um só lugar.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#noticias" class="primary">
+                Ver novidades →
+            </a>
+
+            <a href="#liturgia" class="secondary">
+                Liturgia de hoje
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <div class="cross">
+            ✠
+        </div>
+
+        <div class="hero-card-header">
+            <span>PALAVRA DO DIA</span>
+            <span id="date">--/--/----</span>
+        </div>
+
+        <h2 id="heroTitle">
+            Carregando...
+        </h2>
+
+        <div class="line"></div>
+
+        <p>
+            "A Palavra de Deus nos reúne,
+            ilumina e envia."
+        </p>
+
+        <a href="#liturgia">
+            Abrir liturgia →
+        </a>
+
+    </div>
+
+</section>
+
+
+<div class="ticker">
+
+    <div class="ticker-title">
+        HOJE
+    </div>
+
+    <div class="ticker-content" id="ticker">
+        Igreja Viva • Notícias do Vaticano • Liturgia diária
+    </div>
+
+</div>
+
+
+<section class="section" id="noticias">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                SANTA SÉ • IGREJA • PAPA
+            </div>
+
+            <h2>
+                Novidades de hoje
+            </h2>
+
+        </div>
+
+        <button id="refreshNews" class="refresh">
+            ↻ Atualizar
+        </button>
+
+    </div>
+
+
+    <div class="news-grid" id="newsContainer">
+
+        <article class="news featured">
+
+            <div class="category">
+                VATICANO
+            </div>
+
+            <h3>
+                Acompanhe as principais novidades
+                da Igreja Católica.
+            </h3>
+
+            <p>
+                Consulte diretamente as fontes oficiais
+                para acompanhar as notícias mais recentes.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/"
+                target="_blank"
+                rel="noopener"
+            >
+                Ler no Vatican News →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                PAPA
+            </div>
+
+            <h3>
+                Notícias e atividades do Santo Padre
+            </h3>
+
+            <p>
+                Discursos, viagens, encontros e mensagens.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/papa.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                IGREJA
+            </div>
+
+            <h3>
+                A vida da Igreja pelo mundo
+            </h3>
+
+            <p>
+                Conheça acontecimentos e iniciativas
+                da Igreja Católica.
+            </p>
+
+            <a
+                href="https://www.vaticannews.va/pt/igreja.html"
+                target="_blank"
+                rel="noopener"
+            >
+                Ver notícias →
+            </a>
+
+        </article>
+
+
+        <article class="news">
+
+            <div class="category">
+                SANTA SÉ
+            </div>
+
+            <h3>
+                Documentos e informações oficiais
+            </h3>
+
+            <p>
+                Consulte diretamente o portal da Santa Sé.
+            </p>
+
+            <a
+                href="https://www.vatican.va/"
+                target="_blank"
+                rel="noopener"
+            >
+                Visitar →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="liturgy" id="liturgia">
+
+    <div class="section">
+
+        <div class="section-header">
+
+            <div>
+
+                <div class="eyebrow">
+                    ORAÇÃO • ESCRITURA • CAMINHO
+                </div>
+
+                <h2>
+                    Liturgia diária
+                </h2>
+
+            </div>
+
+            <div class="date-pill" id="liturgyDate">
+                Hoje
+            </div>
+
+        </div>
+
+
+        <div class="liturgy-card">
+
+            <div class="liturgy-symbol">
+                ✠
+            </div>
+
+
+            <div>
+
+                <div class="small-title">
+                    CELEBRAÇÃO DE HOJE
+                </div>
+
+                <h3 id="liturgyTitle">
+                    Carregando...
+                </h3>
+
+
+                <div class="readings">
+
+                    <div>
+
+                        <span>
+                            LEITURA
+                        </span>
+
+                        <p id="reading">
+                            —
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            EVANGELHO
+                        </span>
+
+                        <p id="gospel">
+                            —
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <a
+                    class="primary"
+                    href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Ler na fonte oficial →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="recursos">
+
+    <div class="section-header">
+
+        <div>
+
+            <div class="eyebrow dark-eyebrow">
+                CENTRAL CATÓLICA
+            </div>
+
+            <h2>
+                Mais para sua caminhada
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="resources">
+
+        <a
+            href="https://www.vatican.va/"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>◎</span>
+
+            <div>
+                <strong>Santa Sé</strong>
+
+                <p>
+                    Documentos e informações oficiais.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/palavra-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>☩</span>
+
+            <div>
+                <strong>Palavra do Dia</strong>
+
+                <p>
+                    Leituras e Evangelho.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+
+        <a
+            href="https://www.vaticannews.va/pt/santo-do-dia.html"
+            target="_blank"
+            class="resource"
+        >
+
+            <span>✦</span>
+
+            <div>
+                <strong>Santo do Dia</strong>
+
+                <p>
+                    Conheça os santos celebrados hoje.
+                </p>
+            </div>
+
+            <b>↗</b>
+
+       
